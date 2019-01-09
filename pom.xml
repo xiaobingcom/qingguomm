@@ -19,7 +19,6 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
 <dependencies>
     <dependency>
         <groupId>org.apache.commons</groupId>
@@ -29,13 +28,8 @@
          <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>4.3.5.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>activemq-all</artifactId>
-            <version>5.14.5</version>
-        </dependency>
+
         <dependency>
             <groupId>com.qiniu</groupId>
             <artifactId>pili-sdk-java</artifactId>
@@ -47,15 +41,9 @@
             <version>7.2.0</version>
         </dependency>
     <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-autoconfigure</artifactId>
-        <version>1.5.17.RELEASE</version>
-
-    </dependency>
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-web</artifactId>
-        <version>5.0.0.RELEASE</version>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>1.2.46</version>
     </dependency>
     <dependency>
         <groupId>cn.leancloud</groupId>
@@ -80,18 +68,14 @@
         <version>1.4.01</version>
     </dependency>
 
-    <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>servlet-api</artifactId>
-        <version>2.5</version>
-        <scope>provided</scope>
-    </dependency>
+
     <!--JWT-->
     <dependency>
         <groupId>io.jsonwebtoken</groupId>
         <artifactId>jjwt</artifactId>
         <version>0.9.0</version>
     </dependency>
+
 
 
 </dependencies>
